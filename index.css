@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(172, 169, 169); 
+    width: 214px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+.main{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute; */
+}
+.sidebar nav li{
+    list-style: none;
+    margin: 12px;
+    font-size: -4vw;
+    padding: 2vw;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.infoCon{
+    display: flex;
+    margin: 50px auto;
+    background-color: rgb(255, 249, 249);
+    height: 78vh;
+    justify-content: space-around;
+}
+.image img{
+    height: 78vh;
+}
+.infowrite{
+    font-size: 54px;
+    margin: auto;
+}
+.name{
+    font-size: 60px;
+}
+
+/* Contact me page */
+
+.formbox h2{
+    text-align: center;
+}
+.main formbox {
+    display: flex;
+    justify-content: center;
+}
+.contactform{
+    justify-content: center;
+    padding: 25px;
+}
+#nameInput{
+    border-radius: 7px;
+    width: 33vw;
+    padding: 2px;
+    font-size: 14px;
+}
+#emailInput{
+    border-radius: 7px;
+    width: 33vw;
+    padding: 2px;
+    font-size: 14px;
+}
+#messagearea{
+    border-radius: 7px;
+    width: 33vw;
+    height: 28vh;
+    padding: 2px;
+    font-size: 14px;
+}
+#submitbutton{
+    background-color: rgb(61, 58, 58);
+    color: white;
+    border-radius: 14px;
+    width: 16vw;
+    margin: 25px;
+    padding: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#resetbutton{
+    background-color: rgb(61, 58, 58);
+    color: white;
+    border-radius: 14px;
+    width: 16vw;
+    margin-right:2vw ;
+    padding: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#submitbutton:hover{
+    color: rgb(61, 58, 58);
+    background-color: white;
+}
+#resetbutton:hover{
+    color: rgb(61, 58, 58);
+    background-color: white;
+}
+
+.hamburger{
+    position: absolute;
+    left: 19px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.cross{
+    margin-left: 125px;
+}
+.sidebarGo{
+    transform: translate(-215px, 0px);
+    position: absolute;
+}
+
+@media (max-width:1615px) {
+    
+    .image{
+        display: none;
+    }
+    
+}
+.contactbox{
+    /* border: black solid 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
